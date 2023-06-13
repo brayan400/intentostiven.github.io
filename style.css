@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+h1{
+    font-size: 40px;
+}
+#principal{
+    background: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 490px;
+}
+.parte{
+    background:linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    text-align: center;
+    border-radius: 15px;
+    padding: 5% 5% 5% 5%;
+    color: whitesmoke;
+}
+.partedos{
+    background: linear-gradient(hsl(256,72%,46%,1), hsl(241,72%,46%,0));
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.partetres{
+    text-align: center;
+    border-radius: 12px;
+    padding: 23% 6% 21% 6%;
+    
+}
+.sumary{
+    text-align: left;
+}
+.Reaction{
+    background: hsla(39, 100%, 95%);
+    border-radius: 5px;
+    font-size: 15px;
+}
+.r-strong{
+    color: rgb(255, 176, 31);
+}
+.Memory{
+    background: hsla(0, 100%, 95%);
+    border-radius: 5px;
+    font-size: 16px;
+}
+.Verbal{
+    background: hsla(166, 100%, 95%);
+    border-radius: 5px;
+    font-size: 16px;
+}
+.Visual{
+    background:hsla(234, 85%, 95%);
+    border-radius: 5px;
+    font-size: 16px;
+}
+.boton{
+    background:hsl(224, 30%, 27%);
+    border-radius: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
